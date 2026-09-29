@@ -1,0 +1,37 @@
+# Local data. The warehouse lives in Postgres; these files are large and reproducible.
+data/
+*.csv
+*.tsv
+*.zip
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.partial
+
+# Secrets
+.env
+.env.*
+*.env
+!.env.example
+.pgpass
+*credentials*
+*secret*
+
+# Python environment and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS and editor junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.idea/
